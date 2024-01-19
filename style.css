@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+div{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%; /* just nyana nje to slightly remove it from the top */
+
+    /* Easier solution (reusability): 
+    Give the div a class name, and add all common CSS (aligning + color) for texts into this ONE class. */
+    
+    font-family: 'Libre Baskerville', serif; /* instruction specified to use this font for h1 - but solution added it for entire div instead. */
+    text-align: center;
+    color: white;
+}
+
+img{
+    width: 100%;
+    border: 5px solid white ;
+    /* If the CSS for this img were reused for another image, it would've been given a class name instead for reusability. */
+}
